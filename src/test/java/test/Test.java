@@ -12,7 +12,6 @@ import pages.SearchResultPage;
 import util.JsonReader;
 import util.PropertiesReader;
 import java.lang.reflect.Method;
-
 import static test.MethodsCount.writeMethodsWithAnnotationToFile;
 
 @Listeners(CustomerTestListener.class)
