@@ -12,7 +12,6 @@ public class PropertiesReader {
     public PropertiesReader() {
         try (InputStream input = new FileInputStream("src/main/resources/config.properties")) {
 
-
             properties.load(input);
 
         } catch (IOException ex) {
