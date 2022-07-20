@@ -89,6 +89,5 @@ public class SearchResultPage extends BasePage{
     public String getEndDate(){
         return driver.findElement(dateEndFieldBy).getText();
     }
-
-    }
+  }
 
